@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "Monitor"
+		Key = "G92KDA9AWJD20E9WA8DJ2UD2Q09"
 	}
 })
 
@@ -261,3 +261,11 @@ local Keybind = Other:CreateKeybind({
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Start aiming at me, not the sky.", "All")
     end
 })
+
+local Button = ESP:CreateButton({
+	Name = "ESP Box (doesn't work)",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+	end,
+})
+
